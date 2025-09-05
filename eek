@@ -1,0 +1,17 @@
+# Initialize git in this folder (if not already done)
+git init
+
+# Add all your files
+git add .
+
+# Commit your files
+git commit -m "Initial commit"
+
+# Then run the GitHub commands
+git remote add origin https://github.com/Samurai228/nft-marketplace-bot.git
+git branch -M main
+git push -u origin main
+cd /Users/arcibob/Desktop/NFT\ MARKETPLACE
+git add .
+git commit -m "Initial commit"
+git push -u origin main
